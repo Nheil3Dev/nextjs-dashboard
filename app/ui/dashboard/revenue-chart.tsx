@@ -13,7 +13,6 @@ import { CalendarIcon } from "@heroicons/react/24/outline";
 export default async function RevenueChart() {
   const revenue = await fetchRevenue();
   const chartHeight = 350;
-  // NOTE: Uncomment this code in Chapter 7
 
   const { yAxisLabels, topLabel } = generateYAxis(revenue);
 
