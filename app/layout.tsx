@@ -18,6 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="ITnLCCcmvldssE7m0HPHqVgG8Lb4VvNanGMRAI1nppY"
+        />
+      </head>
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
